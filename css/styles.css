@@ -76,7 +76,7 @@ footer {
 
 .hero {
     background-color: #C4C4C4;
-    background-image: url(../images/fon.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -251,14 +251,14 @@ header .logo {
     align-items: center;
 }
 
-.features-section, .block-portfolio {
+.features-section, .block-portfolio, .permanent-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.container-features {
+/*.container-features {
     height: 101px;
-}
+}*/
 
 .features, .images, .container-name {
     display: flex;
@@ -347,7 +347,7 @@ footer address {
     margin-left: 30px;
 }
 
-.icons-web {
+.icons-web, .icons-client {
     display:flex;
     justify-content: center;
 }
@@ -378,4 +378,83 @@ footer address {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+}
+
+/*.item-feature:not(:last-child) {
+    margin-right: 30px;
+}*/
+
+.icon-feature {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.svg-feature {
+    width: 70px;
+    height: 70px;
+}
+
+.svg-client-1 {
+    width: 44px;
+    height: 49px;
+}
+
+.svg-client-2 {
+    width: 40px;
+    height: 52px;
+}
+
+.svg-client-3 {
+    width: 41px;
+    height: 43px;
+}
+
+.svg-client-4 {
+    width: 80px;
+    height: 42px;
+}
+
+.svg-client-5 {
+    width: 59px;
+    height: 47px;
+}
+
+.svg-client-6 {
+    width: 88px;
+    height: 45px;
+}
+
+.client {
+    fill: #AFB1B8;
+}
+
+.item-client:not(:last-child) {
+    margin-right: 30px;
+}
+
+.item-client {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-client:hover, .item-client:focus{
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.item-client:hover .client, .item-client:focus .client{
+    fill: #2196F3;
 }
