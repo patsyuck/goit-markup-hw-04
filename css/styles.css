@@ -449,7 +449,7 @@ footer address {
     margin-right: 30px;
 }
 
-.item-client {
+.link-client {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -461,11 +461,11 @@ footer address {
     cursor: pointer;
 }
 
-.item-client:hover {
+.link-client:hover, .link-client:focus {
     border: 1px solid #2196F3;
 }
 
-.item-client:hover .client, .link-client:focus .client {
+.link-client:hover .client, .link-client:focus .client {
     fill: #2196F3;
 }
 
